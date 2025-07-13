@@ -16,8 +16,6 @@ export const Lobby = () => {
   const roomInfo = useSelector(getRoomInfo);
   const {
     data: roomsResponse,
-    isLoading: fetchRoomsLoading,
-    error: fetchRoomsError,
   } = useFetch<PopularRoomsResponse>("/rooms");
   const { rooms } = roomsResponse || { rooms: [] };
 
