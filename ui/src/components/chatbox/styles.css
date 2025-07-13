@@ -1,0 +1,25 @@
+@keyframes moveUp {
+  0% {
+    transform: translateY(-24px);
+  }
+  25% {
+    transform: translateY(-48px);
+  }
+
+  50% {
+    transform: translateY(-72px);
+  }
+
+  100% {
+    transform: translateY(-96px);
+  }
+
+  125% {
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+}
+
+#message {
+  animation: moveUp 20s ease-in-out forwards;
+}
