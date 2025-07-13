@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DefaultDirection = exports.backRight = exports.backLeft = exports.frontLeft = exports.frontRight = exports.roomLimit = exports.gridSize = exports.speedUserMov = void 0;
+exports.speedUserMov = 220;
+exports.gridSize = 10;
+exports.roomLimit = 10;
+exports.frontRight = -1;
+exports.frontLeft = 1;
+exports.backLeft = 0;
+exports.backRight = 2;
+exports.DefaultDirection = exports.frontLeft;
